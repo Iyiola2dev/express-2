@@ -9,7 +9,7 @@ const PORT = 3002;
 app.use(express.json());
 
 // this for the movie routes
-app.use("/movies", movieRoute)
+app.use("/movie", movieRoute)
 
 
 
